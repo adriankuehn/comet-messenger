@@ -1,0 +1,10 @@
+const mongoose = require("mongoose");
+
+const NameTableSchema = new mongoose.Schema(
+  {
+    userNames: { type: Array, default: [] },
+  },
+  { timestamps: true }
+);
+
+module.exports = mongoose.model("NameTable", NameTableSchema);

@@ -1,0 +1,46 @@
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgPopup{
+    height: 70%;
+    object-fit: cover;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.75);
+  }
+
+  .containerToAccept {
+    width: 300px;
+    align-items: center;
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+    border-radius: 18px;
+    background-color: white;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.75);
+  }
+
+  .requestsHeadline1 {
+    margin-top: 36px;
+    background-color: white;
+    padding-left: 15px;
+    margin-top: 15px;
+  }
+
+  .dataItem {
+    width: 300px;
+    height: 32px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding-left: 15px;
+    background-color: white;
+    border-bottom: 0.5px solid lightgrey;
+  }

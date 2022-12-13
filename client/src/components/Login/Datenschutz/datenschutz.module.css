@@ -1,0 +1,8 @@
+.popUpTextDatenS {
+  height: 80vh;
+  padding-left: 30px;
+  padding-right: 20px;
+  font-size: 16px;
+  overflow: hidden;
+  overflow-y: auto;
+}

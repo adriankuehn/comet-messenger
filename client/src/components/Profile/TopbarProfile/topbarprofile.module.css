@@ -1,0 +1,114 @@
+.navbar {
+  width: 100%;
+  height: 7.5vh;
+  background-color: #3e9dd4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #538EF1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2393c0ec'/%3E%3Cstop offset='1' stop-color='%2393c0ec' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230a4fa4'/%3E%3Cstop offset='1' stop-color='%230a4fa4' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%231e82cb'/%3E%3Cstop offset='1' stop-color='%231e82cb' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23538EF1'/%3E%3Cstop offset='1' stop-color='%23538EF1' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23CAE2F0'/%3E%3Cstop offset='1' stop-color='%23CAE2F0' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23010D18'/%3E%3Cstop offset='1' stop-color='%23010D18' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.white_btn {
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  background-color: white;
+  border-radius: 20px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 2vw;
+}
+
+.logoName {
+  margin-left: 2vw;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: min(6.6vh, 50px);
+  background-color: white;
+  border-radius: 20px;
+  text-decoration: none
+}
+
+.topbarImg {
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.textName {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color:black;
+}
+
+.rightButtons{
+  display: flex;
+  align-items: center;
+  width: 25vw;
+  justify-content: flex-end;
+}
+
+
+.topbarIconGroup {
+  color: white;
+  position: relative;
+  cursor: pointer;
+  align-items: center;
+  display:flex;
+  margin-right:20px;
+}
+
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  bottom: -0.8vh;
+  right: -6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.selectIconHome {
+  height: min(6.6vh, 50px);
+  width: 60px;
+  display: grid;
+  place-items: center;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 2vw;
+}
+
+.selectIconHome svg {
+  font-size: 37px;
+  color: black;
+}
+
+
+.leftButtons{
+
+  display: flex;
+  align-items: center;
+  width: 25vw;
+}
+

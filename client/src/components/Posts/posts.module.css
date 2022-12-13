@@ -1,0 +1,77 @@
+.PostWrapper {
+  font-size: 40px;
+  width: 80%;
+}
+
+.gridPosts {
+  display: grid;
+  height: 75vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 50px;
+  overflow-y: scroll;
+}
+
+.singlePost {
+  width: 18.5vw;
+  height: 18.5vw;
+}
+
+.postImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.postDescription {
+  font-size: 14px;
+  background-color: #eaf6fb;
+  margin-top: -29px;
+  padding-left: 10px;
+}
+
+.postLikeandDelete {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  background-color: #eaf6fb;
+}
+
+.postLike {
+  display: flex;
+  align-items: center;
+  color: #0277bd;
+  padding-left: 10px;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+.postDelete {
+  display: flex;
+  align-items: center;
+  color: #0277bd;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+.timeAgo {
+  font-size: 14px;
+  position: relative;
+  top: -19vw;
+  left: 0.6vw;
+  color: white;
+}
+
+.circularProg {
+  position: absolute;
+  right: 50vw;
+  top: 50vh;
+}
+
+.likeCount {
+  padding-left: 4px;
+}

@@ -1,0 +1,227 @@
+.mainStartPage {
+  background-color: #f5f5f5;
+}
+
+.bottomContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loginFormWrapper {
+  height: 70vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.login_form_container {
+  width: 75vw;
+  max-width: 900px;
+  height: 68vh;
+  max-height: 500px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_container h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.input {
+  outline: none;
+  border: none;
+  width: 370px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #e8f2f3;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.error_msg {
+  width: 370px;
+  padding: 15px;
+  margin: 5px 0;
+  font-size: 14px;
+  background-color: #f34646;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3e9dd4;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.right h1 {
+  margin-top: 0;
+  color: white;
+  font-size: 40px;
+  align-self: center;
+}
+
+.white_btn,
+.green_btn {
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  background-color: white;
+  border-radius: 20px;
+  width: 180px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.green_btn {
+  background-color: #3e9dd4;
+  color: white;
+  margin: 10px;
+}
+
+.bottomBar {
+  background-color: #3e9dd4;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whiteTextBottomL {
+  color: white;
+  font-size: 26px;
+  padding-left: 20vw;
+  cursor: pointer;
+}
+
+.whiteTextBottomM {
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.whiteTextBottomR {
+  color: white;
+  font-size: 26px;
+  padding-right: 20vw;
+  cursor: pointer;
+}
+
+.topContainer {
+  background-image: url("../../space.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.topHeadline {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.topButton {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  background: #56c1ff;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 15vh;
+  box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.4);
+}
+
+.containerCarousel {
+  margin-top: 20px;
+  width: 90vw;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.textCarousel {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.middleContainer {
+  width: 100%;
+  height: 150vh;
+}
+
+.firstImageContainer {
+  width: 100%;
+  height: 75vh;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.secondImageContainer {
+  width: 100%;
+  height: 75vh;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.middleImg {
+  width: 55vw;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.firstImageText {
+  font-size: 40px;
+  font-weight: bold;
+  width: 40vw;
+}
+
+.secondImageText {
+  font-size: 40px;
+  font-weight: bold;
+  width: 35vw;
+}
