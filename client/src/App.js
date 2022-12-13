@@ -5,7 +5,7 @@ import Register from "./components/Register/register";
 import Profile from "./components/Profile/profile";
 
 function App() {
-  // Registration: Firebase crates firebaseKey which is stored in MongoDB
+  //  Registration: Firebase crates firebaseKey which is stored in MongoDB
   // Login: First Login with Email in Password in Firebase, Firebase returns firebaseKey to client which can then be used
   // to get all the general userdata from MongoDb. This general userdata contains the MongoDB userID which is used for
   // authentication of all the server function except the login
