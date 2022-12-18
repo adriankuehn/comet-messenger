@@ -10,7 +10,8 @@ export default function TopbarProfile(props) {
   const handleLogout = async () => {
     await signOut(auth);
     localStorage.removeItem("user_all");
-    window.location.reload();
+    //window.location.reload();
+    window.location = '/';
   };
 
   return (
