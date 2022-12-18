@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./register.module.css";
 import SERVER_URL from "../../config";
 import auth from "../../firebase-config";
@@ -14,7 +14,6 @@ const Register = () => {
     firebaseKey: "",
   });
   const [error, setError] = useState("");
-  const navigate = useNavigate();
 
   const handleChange = ({ currentTarget: input }) => {
     setData({ ...data, [input.name]: input.value });
@@ -48,7 +47,7 @@ const Register = () => {
           sendEmailVerification(auth.currentUser);
           signOut(auth);
           alert("Please confirm your Email address before logging in. Have a look in your spam folder as well.");
-          navigate("/login");
+          window.location = "/";
         })
         .catch((error) => {
           setError("An Error Occured");
@@ -61,7 +60,7 @@ const Register = () => {
       <div className={styles.signup_form_container}>
         <div className={styles.left}>
           <h1>Welcome Back !</h1>
-          <Link to="/login">
+          <Link to="/">
             <button type="button" className={styles.white_btn}>
               Login
             </button>

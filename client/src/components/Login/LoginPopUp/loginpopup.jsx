@@ -38,7 +38,7 @@ const LoginPopup = ({ open, onClose, popUpValue }) => {
                 Development of an autonomous web-based Social Network where users can create their own profiles and publish photos/posts. Next to
                 that, users can search for and add new friends. By utilizing a socket server users can also perform real-time chatting with each
                 other. The overall project size contains about 5000 lines of Javascript, HTML and CSS code. For more information visit the
-                corresponding GitHub page: <a href="https://github.com/adriankuehn/comet-messenger">https://github.com/adriankuehn/comet-messenger</a>
+                corresponding GitHub page: <br/><br/><a href="https://github.com/adriankuehn/comet-messenger">https://github.com/adriankuehn/comet-messenger</a>
               </div>
             )}
           </div>
