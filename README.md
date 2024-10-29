@@ -1,5 +1,6 @@
 # Comet Messenger
 JS MERN Full Stack Development of an autonomous web-based Social Network where users can create their own profiles, add posts and communicate with each other in real-time: <a href="https://comet-messenger.com">https://comet-messenger.com</a><br /><br />
+Note: comet-messenger.com was online from 17.12.2022 to 29.10.2024<br /><br />
 Among others, the main functionalities are: 
 * Sign in and Sign up via email verification
 * Find and connect with other users
